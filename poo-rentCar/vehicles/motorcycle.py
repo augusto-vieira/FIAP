@@ -1,6 +1,7 @@
 # veiculos/moto.py
 from vehicles.vehicles import Vehicle
 
+# Herança: <Motorcycle> hedar os atributos e métodos de <Vehicle>
 class Motorcycle(Vehicle):
     def __init__(self, brand, model, year, daily_price, displacement):
         super().__init__(brand, model, year, daily_price)

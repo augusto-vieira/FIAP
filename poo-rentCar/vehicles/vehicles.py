@@ -1,28 +1,4 @@
-"""
-1. Abstração
-Definição:
-A abstração permite que você se concentre nos aspectos essenciais de um objeto em vez de todos os seus detalhes.
-É a ideia de criar uma classe que representa um conceito genérico.
-
-No código:
-
-A classe Vehicle é uma abstração de qualquer veículo. Contém atributos comuns a todos os veículos, como marca,
-modelo, ano e preço diário.
-
-
----
-
-2. Encapsulamento
-Definição:
-O encapsulamento é o princípio de esconder os detalhes internos de um objeto e expor apenas o que é necessário.
-Isso é feito protegendo atributos e fornecendo métodos para acessá-los e modificá-los.
-
-No código:
-
-Atributos como _brand, _model, _year, _daily_price e _available são protegidos (indicado pelo underscore).
-Métodos como check_availability, rent e return_vehicle fornecem uma interface controlada para interagir com esses atributos.
-"""
-
+# Classe de  Abstração que será herdada pelas demais.
 class Vehicle:
     def __init__(self, brand, model, year, daily_price):
         self._brand = brand  # Atributo que armazena a marca do carro
