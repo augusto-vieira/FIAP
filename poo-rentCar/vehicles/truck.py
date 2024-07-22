@@ -1,6 +1,7 @@
 # veiculos/caminhao.py
 from vehicles.vehicles import Vehicle
 
+# Herança: <Truck> hedar os atributos e métodos de <Vehicle>
 class Truck(Vehicle):
     def __init__(self, brand, model, year, daily_price, cargo_capacity):
         super().__init__(brand, model, year, daily_price)
