@@ -13,6 +13,7 @@ def main():
     # Colocamos todos os veículos em uma lista para simplificar a iteração
     veiculos = [carro, moto, caminhao]
 
+    print(50 * "#")
     # Polimorfismos para apresentar as informações
     for veiculo in veiculos:
         print(veiculo.informacao())  # Exibe as informações do veículo
@@ -24,12 +25,13 @@ def main():
 
     # Criando a locadora e adicionando veículos
     print(50 * "#")
-    print("Locadora: ")
-    locadora = Locadora()
+    locadora = Locadora("Localiza Rent a Car Sa.", "16.670.085/0001-55" )
     locadora.set_veiculo(carro)
     locadora.set_veiculo(moto)
     locadora.set_veiculo(caminhao)
 
+    # Chamando o método da <empresa> implementado na <locadora>
+    locadora.get_empresa()
     # Listando os veículos da locadora usando polimorfismo
     locadora.get_veiculo()
     print(50 * "#")
