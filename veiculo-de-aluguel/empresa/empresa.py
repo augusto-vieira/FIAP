@@ -5,9 +5,9 @@ class Empresa(ABC):
 
      # Método abstrato, deve ser implementado no objeto que herdar <Locadora>
     @abstractmethod
-    def set_razao_social(self, razao_social, cnpj):
+    def set_razao_social(self, razao_social: str, cnpj: str):
         pass
     
     @abstractmethod
-    def get_empresa(self):
+    def get_empresa(self) -> str:
         pass
