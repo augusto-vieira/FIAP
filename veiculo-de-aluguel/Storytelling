@@ -17,11 +17,11 @@
 
 # POO
 
-Abstração: Vehicle é uma abstração de um veículo genérico.
+Abstração: Veiculo é uma abstração de um veículo genérico.
 
-Encapsulamento: Atributos de Vehicle são protegidos e acessados via métodos públicos.
+Encapsulamento: Atributos de Veiculo são protegidos e acessados via métodos públicos.
 
-Herança: Car, Motorcycle e Truck herdam de Vehicle e adicionam funcionalidades específicas.
+Herança: Carro, Motocicleta e Caminhao herdam de Veiculo e adicionam funcionalidades específicas.
 
-Polimorfismo: O método display_info é implementado de maneira diferente em cada subclasse, mas pode ser chamado de forma
+Polimorfismo: O método informacao é implementado de maneira diferente em cada subclasse, mas pode ser chamado de forma
 uniforme.

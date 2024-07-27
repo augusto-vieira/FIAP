@@ -1,8 +1,0 @@
-poo-rentcar/
-|-- main.py
-|-- vehicles/
-    |-- __init__.py
-    |-- vehicles.py
-    |-- car.py
-    |-- motorcycle.py
-    |-- truck.py

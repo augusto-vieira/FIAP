@@ -1,0 +1,11 @@
+veiculo-de-aluguel/
+|-- main.py
+|-- veiculo/
+    |-- __init__.py
+    |-- veiculo.py
+    |-- carro.py
+    |-- motocicleta.py
+    |-- caminhao.py
+|-- empresa/
+    |-- empresa.py
+    |-- locadora.py
