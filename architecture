@@ -1,0 +1,39 @@
+atividade-POO/
+|-- requirements.txt
+|-- README.md
+|-- LICENSE
+|-- architecture
+|-- Storytelling
+|-- app/
+    |-- coverage_relatorio_html/
+    |-- tests/
+    |-- veiculo-de-aluguel/
+    |-- main.py
+    |-- endpoint
+    |-- pytest.ini
+    |-- .coveragerc
+
+
+|-- veiculo-de-aluguel/
+        |-- veiculo/
+            |-- veiculo.py
+            |-- carro.py
+            |-- motocicleta.py
+            |-- caminhao.py
+        |-- empresa/
+            |-- empresa.py
+            |-- locadora.py
+
+tests/
+    |-- README.md
+    |-- __init__.py
+    |-- test_veiculo.py
+    |-- test_carro.py
+    |-- test_motocicleta.py
+    |-- test_caminhao.py
+    |-- test_empresa.py
+    |-- test_locadora.py
+
+UML/
+   |-- UML_DiagramaDeClasse.drawio
+   |-- UML_DiagramaDeClasse.drawio.png

@@ -3,7 +3,7 @@ from veiculo_de_aluguel.veiculo.motocicleta import Motocicleta  # Importa a clas
 from veiculo_de_aluguel.veiculo.caminhao import Caminhao        # Importa a classe Caminhao do módulo veiculo.caminhao
 from veiculo_de_aluguel.empresa.locadora import Locadora 
 
-from endpoint import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel # Usado para criar classes de modelos de dados com validação automática e conversão de tipos.
 from typing import List        # Usado para indicar que um campo ou variável deve conter uma lista de itens de um tipo específico.
 

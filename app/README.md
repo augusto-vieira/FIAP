@@ -13,18 +13,18 @@ Desenvolver um sistema de aluguel de veículos utilizando os conceitos de Progra
 - 📝 Criar a classe `Veiculo` com os atributos protegidos e métodos públicos.
 - 📝 Criar as subclasses `Carro`, `Motocicleta` e `Caminhao` que herdam de `Veiculo`.
 - 📝 Implementar o método `informacao` de forma polimórfica em cada subclasse.
+- 📝 Criar a Interface `Empresa`, que será implementada na classe `Locadora`.
+- 📝 Criar a classe`Locadora` e implementa a interface `Empresa`
 
 ### 3. Desenvolvimento da API com FastAPI
 - 📝 Configurar o FastAPI no projeto.
 - 📝 Criar endpoints para listar veículos, verificar disponibilidade, alugar e devolver veículos.
+    - ⛳ GET `/locadora` - Lista a Locadora e seus veículos.
     - ⛳ GET `/veiculo` - Lista todos os veículos.
-    - ⛳ GET `/veiculo/{veiculoid}` - Mostra detalhes de um veículo específico.
-    - ⛳ POST `/aluguel` - Aluga um veículo.
-    - ⛳ POST `/return` - Devolve um veículo.
+    - ⛳ GET `/veiculo/{modelo}` - Mostra detalhes de um veículo específico.
 
 ### 4. Testes com Pytest
-- 📝 Escrever testes unitários para as classes `Veiculo`, `Carro`, `Motocicleta` e `Caminhao`.
-- 📝 Escrever testes para os endpoints da API.
+- 📝 Escrever testes unitários para as classes `Veiculo`, `Carro`, `Motocicleta`, `Caminhao`, `Locadora`.
 
 ### 5. Containerização com Docker
 - 📝 Criar um `Dockerfile` para o projeto.
