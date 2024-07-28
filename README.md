@@ -49,7 +49,7 @@ uvicorn endpoint:app --reload
 
 ## 📋 Consultas Disponíveis
 
-### 🎯 Consulta de Produção
+### 🎯 Locadora
 Retorna os dados da locadora e seus veículos.
 
 ### 🎯Veículo
