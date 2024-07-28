@@ -26,13 +26,8 @@ Desenvolver um sistema de aluguel de veículos utilizando os conceitos de Progra
 ### 4. Testes com Pytest
 - 📝 Escrever testes unitários para as classes `Veiculo`, `Carro`, `Motocicleta`, `Caminhao`, `Locadora`.
 
-### 5. Containerização com Docker
-- 📝 Criar um `Dockerfile` para o projeto.
-- 📝 Configurar o `docker-compose` para facilitar a execução do ambiente de desenvolvimento e testes.
-
-### 6. Modelagem UML
+### 5. Modelagem UML
 - 📝 Criar diagramas de classe para representar a estrutura do sistema.
-- 📝 Incluir diagramas de sequência para ilustrar o fluxo de operações principais.
 
 ## Critérios de Aceitação
 - ✅ O sistema deve ser capaz de cadastrar, listar, alugar e devolver veículos.
@@ -44,35 +39,3 @@ Desenvolver um sistema de aluguel de veículos utilizando os conceitos de Progra
 - ⚠️ Utilize boas práticas de programação e versionamento de código.
 - ⚠️ Faça commits frequentes e detalhados.
 - ⚠️ Garanta que o código esteja bem documentado.
-
-## Ambiente:
-1. Criando um ambiente virtual:
-```bash
-python -m venv venv 
-``` 
-2. Ativando ambiente virtual:
-```bash
-venv\Scripts\activate
-```
-3. Instalando requirements
-```bash
-pip install -r requirements.txt 
-```
-
-## Ativando o Servidor Web
-3. Instalando requirements
-```bash
-uvicorn main:app --reload
-```
-
-## Comandos utils
-```bash
-# Verificar o Caminho do Python
-Get-Command python
-
-# Verificar pacotes instalados
-pip list
-
-# Reinstalar os Pacotes 
-pip install --upgrade --force-reinstall fastapi selenium
-```
