@@ -1,0 +1,19 @@
+[run]
+
+source = ./veiculo_de_aluguel
+
+[report]
+exclude_lines =
+    super().__init__
+    def __str__
+    def informacao
+    def get_empresa
+    self.__disponivel = True
+    for Veiculo in self.__list:
+    raise
+    raise TypeError
+    return
+    pass
+
+[html]
+directory = coverage_relatorio_html

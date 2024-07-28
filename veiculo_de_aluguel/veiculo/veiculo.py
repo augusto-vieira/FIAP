@@ -21,6 +21,8 @@ class Veiculo:
     
     @modelo.setter
     def modelo(self, modelo: str):
+        if not isinstance(modelo, str):
+            raise TypeError("O modelo deve ser uma string.")        
         self.__modelo = modelo
 
     @property
@@ -29,15 +31,19 @@ class Veiculo:
     
     @ano.setter
     def ano(self, ano: int):
+        if not isinstance(ano, int):
+            raise TypeError("O ano deve ser um inteiro.")        
         self.__ano = ano
 
     @property
     def diaria(self) -> float:
         return self.__diaria
     
-    @ano.setter
-    def diaria(self, diaria: int):
-        self.__ano = diaria
+    @diaria.setter
+    def diaria(self, diaria: float):
+        if not isinstance(diaria, float):
+            raise TypeError("A diária deve ser um float.")        
+        self.__diaria = diaria
 
     @property
     def disponivel(self) -> bool:
@@ -45,7 +51,9 @@ class Veiculo:
     
     @disponivel.setter
     def disponivel(self, disponivel: bool):
-        self.__marca = disponivel
+        if not isinstance(disponivel, bool):
+            raise TypeError("A disponibilidade deve ser um booleano")
+        self.__disponivel = disponivel
     
     # Métodos da Classe
     def informacao(self) -> str:
@@ -64,3 +72,6 @@ class Veiculo:
     def devolucao(self) -> str:
         self.__disponivel = True
         return f"{self.__marca} {self.__modelo} foi devolvido com sucesso!"
+    
+    def __str__(self) -> str:
+        return f"Veiculo: {self.__marca}, {self.__modelo}, {self.__ano}, {self.__diaria}, { self.__disponivel}"
