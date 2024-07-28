@@ -1,6 +1,6 @@
 [run]
 
-source = ./veiculo_de_aluguel
+source = ./utils
 
 [report]
 exclude_lines =

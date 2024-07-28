@@ -1,5 +1,5 @@
 import pytest
-from veiculo_de_aluguel.empresa.locadora import Locadora
+from utils.empresa.locadora import Locadora
 
 class Testlocadora:
     # Função de configuração do pytest para criar um objeto caminhão antes de cada teste 

@@ -1,5 +1,5 @@
 import pytest
-from veiculo_de_aluguel.veiculo.carro import Carro  
+from utils.veiculo.carro import Carro  
 
 class TestCarro:
     # Função de configuração do pytest para criar um objeto caminhão antes de cada teste 

@@ -1,4 +1,4 @@
-from veiculo_de_aluguel.empresa.empresa import Empresa
+from utils.empresa.empresa import Empresa
 import re 
 
 # Implementa a Inteface <Empresa>

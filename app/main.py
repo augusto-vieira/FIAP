@@ -1,8 +1,8 @@
 # main.py
-from veiculo_de_aluguel.veiculo.carro import Carro              # Importa a classe Carro do módulo veiculo.carro
-from veiculo_de_aluguel.veiculo.motocicleta import Motocicleta  # Importa a classe Motocicleta do módulo veiculo.motocicleta
-from veiculo_de_aluguel.veiculo.caminhao import Caminhao        # Importa a classe Caminhao do módulo veiculo.caminhao
-from veiculo_de_aluguel.empresa.locadora import Locadora        # Importa a classe Locadora do módulo empresa.locadora
+from utils.veiculo.carro import Carro              # Importa a classe Carro do módulo veiculo.carro
+from utils.veiculo.motocicleta import Motocicleta  # Importa a classe Motocicleta do módulo veiculo.motocicleta
+from utils.veiculo.caminhao import Caminhao        # Importa a classe Caminhao do módulo veiculo.caminhao
+from utils.empresa.locadora import Locadora        # Importa a classe Locadora do módulo empresa.locadora
 
 def main():
     # Criando instâncias das classes de veículos

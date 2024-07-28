@@ -7,7 +7,7 @@ atividade-POO/
 |-- app/
     |-- coverage_relatorio_html/
     |-- tests/
-    |-- veiculo-de-aluguel/
+    |-- utils/
     |-- main.py
     |-- endpoint
     |-- pytest.ini

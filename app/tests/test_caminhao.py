@@ -1,5 +1,5 @@
 import pytest
-from veiculo_de_aluguel.veiculo.caminhao import Caminhao
+from utils.veiculo.caminhao import Caminhao
 
 class TestCaminhao:
     # Função de configuração do pytest para criar um objeto caminhão antes de cada teste 

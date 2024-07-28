@@ -38,18 +38,18 @@ pytest --cov
 ### 8. Chamar um teste específico com cobertura
 Execute testes específicos e meça a cobertura de código no diretório especificado.
 ```bash
-pytest --cov=veiculo_de_aluguel  # <nome do diretório>
-pytest --cov=veiculo_de_aluguel tests/ 
+pytest --cov=utils  # <nome do diretório>
+pytest --cov=utils tests/ 
 ```
 ### 9. Especificar os termos faltantes (linhas que não têm testes)
 Execute testes e reporte as linhas de código que não foram cobertas pelos testes.
 ```bash
-pytest --cov=veiculo_de_aluguel tests/ --cov-report term-missing 
+pytest --cov=utils tests/ --cov-report term-missing 
 ```
 ### 10. Gerar relatório em HTML
 Execute testes e gere um relatório de cobertura de código em formato HTML.
 ```bash
-pytest --cov=veiculo_de_aluguel tests/ --cov-report html
+pytest --cov=utils tests/ --cov-report html
 ```
 ### 11. Gerar relatório em XML
 Execute testes e gere um relatório de resultados em formato XML.

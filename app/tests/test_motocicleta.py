@@ -1,5 +1,5 @@
 import pytest
-from veiculo_de_aluguel.veiculo.motocicleta import Motocicleta  
+from utils.veiculo.motocicleta import Motocicleta  
 
 class TestMotocicleta:
     # Função de configuração do pytest para criar um objeto caminhão antes de cada teste 

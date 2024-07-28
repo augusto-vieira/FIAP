@@ -1,6 +1,6 @@
 import pytest                        # Importar funções do pytest
 from pytest import mark              # <mark> usado para utlizar os decorator nos testes específicos
-from veiculo_de_aluguel.veiculo.veiculo import Veiculo
+from utils.veiculo.veiculo import Veiculo
 
 class TestVeiculo:
    # Função de configuração do pytest para criar um objeto veiculo antes de cada teste 

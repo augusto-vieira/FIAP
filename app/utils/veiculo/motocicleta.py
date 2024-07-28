@@ -1,6 +1,6 @@
 # veiculos/moto.py
 #from veiculo.veiculo import Veiculo
-from veiculo_de_aluguel.veiculo.veiculo import Veiculo
+from utils.veiculo.veiculo import Veiculo
 
 # Herança: <Motocicleta> hedar os atributos e métodos de <Veiculo>
 class Motocicleta(Veiculo):

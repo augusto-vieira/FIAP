@@ -1,4 +1,4 @@
-from veiculo_de_aluguel.veiculo.veiculo import Veiculo
+from utils.veiculo.veiculo import Veiculo
 
 # Herança: <Carro> hedar os atributos e métodos de <Veiculo>
 class Carro(Veiculo):
