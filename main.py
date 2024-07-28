@@ -6,9 +6,9 @@ from veiculo_de_aluguel.empresa.locadora import Locadora        # Importa a clas
 
 def main():
     # Criando instâncias das classes de veículos
-    carro = Carro("BMW", "X1", 2020, 150, 4)                          # Característica do Carro é 4 portas
-    moto = Motocicleta("Suzuki", "GSX-R1000", 2019, 200, 1000)        # Característica da Motocicleta é 1000 cilindrada
-    caminhao = Caminhao("Mercedes-Benz", "Actros", 2021, 300, 25000)  # Característica do Caminhao é de 25000kg de capacidade 
+    carro = Carro("BMW", "X1", 2020, 150.00, 4)                          # Característica do Carro é 4 portas
+    moto = Motocicleta("Suzuki", "GSX-R1000", 2019, 200.00, 1000)        # Característica da Motocicleta é 1000 cilindrada
+    caminhao = Caminhao("Mercedes-Benz", "Actros", 2021, 300.50, 25000)  # Característica do Caminhao é de 25000kg de capacidade 
 
     # Colocamos todos os veículos em uma lista para simplificar a iteração
     veiculos = [carro, moto, caminhao]

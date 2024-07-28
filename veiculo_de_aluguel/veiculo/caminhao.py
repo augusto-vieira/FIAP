@@ -4,8 +4,8 @@ from veiculo_de_aluguel.veiculo.veiculo  import Veiculo
 class Caminhao(Veiculo):
     def __init__(self, marca: str, modelo: str, ano: int, diaria: float, capacidade_de_carga: int):
         super().__init__(marca, modelo, ano, diaria)
-        self.__carga = capacidade_de_carga  # Capacidade de carga em quilogramas
-
+        self.__carga = None                 # Capacidade de carga em quilogramas
+        self.carga = capacidade_de_carga    # Validar as informações, antes de atribuir na instanciação do objeto
     @property
     def carga(self) -> None:
         return self.__carga

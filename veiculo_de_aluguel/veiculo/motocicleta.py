@@ -6,7 +6,8 @@ from veiculo_de_aluguel.veiculo.veiculo import Veiculo
 class Motocicleta(Veiculo):
     def __init__(self, marca: str, modelo: str, ano: int, diaria: float, cilindrada):
         super().__init__(marca, modelo, ano, diaria)
-        self.__cilindrada = cilindrada  # Cilindradas da motocicleta em cc
+        self.__cilindrada = None        # Cilindradas da motocicleta em cc
+        self.cilindrada   = cilindrada  # Validar as informações, antes de atribuir na instanciação do objeto
 
     @property
     def cilindrada(self) -> None:

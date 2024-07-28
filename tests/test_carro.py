@@ -5,7 +5,7 @@ class TestCarro:
     # Função de configuração do pytest para criar um objeto caminhão antes de cada teste 
     @pytest.fixture
     def carro(self):
-        return Carro("BMW", "X1", 2020, 150, 4)
+        return Carro("BMW", "X1", 2020, 150.20, 4)
     
     def test_get_set_quantidade_de_portas(self, carro):
         """Teste para verificar a propriedade 'porta' do Carro"""

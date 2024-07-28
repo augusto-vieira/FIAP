@@ -4,7 +4,8 @@ from veiculo_de_aluguel.veiculo.veiculo import Veiculo
 class Carro(Veiculo):
     def __init__(self, marca: str, modelo: str, ano: int, diaria: float, portas:int):
         super().__init__(marca, modelo, ano, diaria)
-        self.__portas = portas  # Atributo que armazena o número de portas do carro
+        self.__portas = None   # Atributo que armazena o número de portas do carro
+        self.portas = portas   # Durante a instanciação do objeto, ele vai validar o número de portas.
 
     @property
     def portas(self) -> None:

@@ -1,11 +1,17 @@
 # Classe de  Abstração que será herdada pelas demais.
 class Veiculo:
     def __init__(self, marca: str, modelo: str, ano: int, diaria: float):
-        self.__marca = marca  # Atributo que armazena a marca do carro
-        self.__modelo = modelo  # Atributo que armazena o modelo do carro
-        self.__ano = ano  # Atributo que armazena o ano de fabricação do carro
-        self.__diaria = diaria  # Atributo que armazena o preço diário de aluguel do carro
+        self.__marca = None      # Atributo que armazena a marca do carro
+        self.__modelo = None    # Atributo que armazena o modelo do carro
+        self.__ano = None          # Atributo que armazena o ano de fabricação do carro
+        self.__diaria = None    # Atributo que armazena o preço diário de aluguel do carro
         self.__disponivel = True  # Atributo que indica se o carro está disponível para aluguel
+
+    # # Validar as informações, antes de atribuir na instanciação do objeto
+        self.marca = marca
+        self.modelo = modelo
+        self.ano = ano
+        self.diaria = diaria
 
     # Métodos Getters e Setters
     @property
